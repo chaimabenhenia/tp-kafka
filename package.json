@@ -1,0 +1,22 @@
+{
+  "name": "tp9-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js",
+    "api": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "kafkajs": "^2.2.4",
+    "mongoose": "^9.6.2"
+  }
+}
